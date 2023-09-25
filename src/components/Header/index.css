@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.nav-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.website-logo {
+  width: 150px;
+}
+.nav-list-container {
+  display: none;
+}
+.each-item {
+  list-style-type: none;
+  margin-right: 30px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.button {
+  color: #ffffff;
+  background-color: #0967d2;
+  border-radius: 5px;
+  border: 0;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+.nav-logos-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e6f6ff;
+}
+.nav-logo {
+  width: 50px;
+  margin-right: 40px;
+}
+.nav-logout-logo {
+  width: 50px;
+}
+@media Screen and (min-width: 768px) {
+  .nav-logos-container {
+    display: none;
+  }
+  .nav-logout-logo {
+    display: none;
+  }
+  .nav-list-container {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+}

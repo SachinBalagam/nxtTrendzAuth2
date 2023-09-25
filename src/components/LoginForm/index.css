@@ -1,0 +1,81 @@
+/* Write your CSS code here */
+.login-page-container {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-form-container {
+  display: flex;
+  justify-content: space-around;
+}
+.login-image1 {
+  width: 40%;
+  display: none;
+}
+.login-image2 {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.label {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.input {
+  background-color: #e6f6ff;
+  border: 1px solid #d7dfe9;
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+}
+.login-button {
+  margin-top: 20px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: 0;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.error-message {
+  color: #ff0b37;
+}
+@media Screen and (min-width: 768px) {
+  .login-image2 {
+    display: none;
+  }
+  .login-image1 {
+    width: 40%;
+    display: block;
+  }
+  .form-container {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+}
